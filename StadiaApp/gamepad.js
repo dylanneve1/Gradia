@@ -59,17 +59,6 @@ function enhanced_changeGridSize(size) {
 	}
 }
 
-var credits = document.createElement("a");
-credits.className = "bl2XYB";
-credits.id = "credits_id";
-
-credits.href = "https://twitter.com/ThatSwiftDev";
-credits.innerHTML = "@ThatSwiftDev";
-credits.style.textAlign = "left";
-credits.style.paddingLeft = "3rem";
-credits.style.marginRight = "20px";
-
-
 if (document.querySelectorAll(".YNlByb")[0] !== undefined) {
 	document.querySelectorAll(".YNlByb")[0].prepend(credits);
 }
