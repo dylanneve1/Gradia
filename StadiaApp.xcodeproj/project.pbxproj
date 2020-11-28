@@ -7,38 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0749A968257292F4003B9E6A /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0749A967257292F4003B9E6A /* GameController.framework */; };
 		BD3D63D2250BD79E00FD20B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D63D1250BD79E00FD20B9 /* AppDelegate.swift */; };
 		BD3D63D4250BD79E00FD20B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D63D3250BD79E00FD20B9 /* SceneDelegate.swift */; };
 		BD3D63D6250BD79E00FD20B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D63D5250BD79E00FD20B9 /* ViewController.swift */; };
 		BD3D63D9250BD79E00FD20B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3D63D7250BD79E00FD20B9 /* Main.storyboard */; };
 		BD3D63DD250BD79F00FD20B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3D63DC250BD79F00FD20B9 /* Assets.xcassets */; };
 		BD3D63E0250BD79F00FD20B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3D63DE250BD79F00FD20B9 /* LaunchScreen.storyboard */; };
-		BD3D63EB250BD79F00FD20B9 /* StadiaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D63EA250BD79F00FD20B9 /* StadiaAppTests.swift */; };
-		BD3D63F6250BD79F00FD20B9 /* StadiaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D63F5250BD79F00FD20B9 /* StadiaAppUITests.swift */; };
 		BD3D6406250EDDB600FD20B9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3D6405250EDDB600FD20B9 /* ExternalAccessory.framework */; };
 		BD3D6408250F503200FD20B9 /* WKWebview+Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D6407250F503200FD20B9 /* WKWebview+Controllers.swift */; };
 		BD3D642C2510DB7800FD20B9 /* gamepad.js in Resources */ = {isa = PBXBuildFile; fileRef = BD3D642B2510DB7800FD20B9 /* gamepad.js */; };
 		BD3D642E2510DBFC00FD20B9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D642D2510DBFC00FD20B9 /* File.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BD3D63E7250BD79F00FD20B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD3D63C6250BD79E00FD20B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD3D63CD250BD79E00FD20B9;
-			remoteInfo = StadiaApp;
-		};
-		BD3D63F2250BD79F00FD20B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD3D63C6250BD79E00FD20B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD3D63CD250BD79E00FD20B9;
-			remoteInfo = StadiaApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0749A967257292F4003B9E6A /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		BD3D63CE250BD79E00FD20B9 /* StadiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StadiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3D63D1250BD79E00FD20B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD3D63D3250BD79E00FD20B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,12 +30,6 @@
 		BD3D63DC250BD79F00FD20B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3D63DF250BD79F00FD20B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD3D63E1250BD79F00FD20B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD3D63E6250BD79F00FD20B9 /* StadiaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StadiaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD3D63EA250BD79F00FD20B9 /* StadiaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiaAppTests.swift; sourceTree = "<group>"; };
-		BD3D63EC250BD79F00FD20B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD3D63F1250BD79F00FD20B9 /* StadiaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StadiaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD3D63F5250BD79F00FD20B9 /* StadiaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiaAppUITests.swift; sourceTree = "<group>"; };
-		BD3D63F7250BD79F00FD20B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3D6403250EDDB500FD20B9 /* StadiaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StadiaApp.entitlements; sourceTree = "<group>"; };
 		BD3D6405250EDDB600FD20B9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		BD3D6407250F503200FD20B9 /* WKWebview+Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebview+Controllers.swift"; sourceTree = "<group>"; };
@@ -65,21 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0749A968257292F4003B9E6A /* GameController.framework in Frameworks */,
 				BD3D6406250EDDB600FD20B9 /* ExternalAccessory.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD3D63E3250BD79F00FD20B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD3D63EE250BD79F00FD20B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				BD3D63D0250BD79E00FD20B9 /* StadiaApp */,
-				BD3D63E9250BD79F00FD20B9 /* StadiaAppTests */,
-				BD3D63F4250BD79F00FD20B9 /* StadiaAppUITests */,
 				BD3D63CF250BD79E00FD20B9 /* Products */,
 				BD3D6404250EDDB600FD20B9 /* Frameworks */,
 			);
@@ -101,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				BD3D63CE250BD79E00FD20B9 /* StadiaApp.app */,
-				BD3D63E6250BD79F00FD20B9 /* StadiaAppTests.xctest */,
-				BD3D63F1250BD79F00FD20B9 /* StadiaAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,42 +70,25 @@
 		BD3D63D0250BD79E00FD20B9 /* StadiaApp */ = {
 			isa = PBXGroup;
 			children = (
-				BD3D6403250EDDB500FD20B9 /* StadiaApp.entitlements */,
 				BD3D63D1250BD79E00FD20B9 /* AppDelegate.swift */,
+				BD3D642D2510DBFC00FD20B9 /* File.swift */,
 				BD3D63D3250BD79E00FD20B9 /* SceneDelegate.swift */,
 				BD3D63D5250BD79E00FD20B9 /* ViewController.swift */,
-				BD3D63D7250BD79E00FD20B9 /* Main.storyboard */,
+				BD3D6407250F503200FD20B9 /* WKWebview+Controllers.swift */,
 				BD3D63DC250BD79F00FD20B9 /* Assets.xcassets */,
 				BD3D63DE250BD79F00FD20B9 /* LaunchScreen.storyboard */,
+				BD3D63D7250BD79E00FD20B9 /* Main.storyboard */,
+				BD3D6403250EDDB500FD20B9 /* StadiaApp.entitlements */,
 				BD3D63E1250BD79F00FD20B9 /* Info.plist */,
-				BD3D6407250F503200FD20B9 /* WKWebview+Controllers.swift */,
 				BD3D642B2510DB7800FD20B9 /* gamepad.js */,
-				BD3D642D2510DBFC00FD20B9 /* File.swift */,
 			);
 			path = StadiaApp;
-			sourceTree = "<group>";
-		};
-		BD3D63E9250BD79F00FD20B9 /* StadiaAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				BD3D63EA250BD79F00FD20B9 /* StadiaAppTests.swift */,
-				BD3D63EC250BD79F00FD20B9 /* Info.plist */,
-			);
-			path = StadiaAppTests;
-			sourceTree = "<group>";
-		};
-		BD3D63F4250BD79F00FD20B9 /* StadiaAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BD3D63F5250BD79F00FD20B9 /* StadiaAppUITests.swift */,
-				BD3D63F7250BD79F00FD20B9 /* Info.plist */,
-			);
-			path = StadiaAppUITests;
 			sourceTree = "<group>";
 		};
 		BD3D6404250EDDB600FD20B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0749A967257292F4003B9E6A /* GameController.framework */,
 				BD3D6405250EDDB600FD20B9 /* ExternalAccessory.framework */,
 			);
 			name = Frameworks;
@@ -171,42 +114,6 @@
 			productReference = BD3D63CE250BD79E00FD20B9 /* StadiaApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD3D63E5250BD79F00FD20B9 /* StadiaAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD3D63FD250BD79F00FD20B9 /* Build configuration list for PBXNativeTarget "StadiaAppTests" */;
-			buildPhases = (
-				BD3D63E2250BD79F00FD20B9 /* Sources */,
-				BD3D63E3250BD79F00FD20B9 /* Frameworks */,
-				BD3D63E4250BD79F00FD20B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD3D63E8250BD79F00FD20B9 /* PBXTargetDependency */,
-			);
-			name = StadiaAppTests;
-			productName = StadiaAppTests;
-			productReference = BD3D63E6250BD79F00FD20B9 /* StadiaAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BD3D63F0250BD79F00FD20B9 /* StadiaAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD3D6400250BD79F00FD20B9 /* Build configuration list for PBXNativeTarget "StadiaAppUITests" */;
-			buildPhases = (
-				BD3D63ED250BD79F00FD20B9 /* Sources */,
-				BD3D63EE250BD79F00FD20B9 /* Frameworks */,
-				BD3D63EF250BD79F00FD20B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD3D63F3250BD79F00FD20B9 /* PBXTargetDependency */,
-			);
-			name = StadiaAppUITests;
-			productName = StadiaAppUITests;
-			productReference = BD3D63F1250BD79F00FD20B9 /* StadiaAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,14 +125,6 @@
 				TargetAttributes = {
 					BD3D63CD250BD79E00FD20B9 = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					BD3D63E5250BD79F00FD20B9 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = BD3D63CD250BD79E00FD20B9;
-					};
-					BD3D63F0250BD79F00FD20B9 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = BD3D63CD250BD79E00FD20B9;
 					};
 				};
 			};
@@ -243,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				BD3D63CD250BD79E00FD20B9 /* StadiaApp */,
-				BD3D63E5250BD79F00FD20B9 /* StadiaAppTests */,
-				BD3D63F0250BD79F00FD20B9 /* StadiaAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,20 +155,6 @@
 				BD3D63E0250BD79F00FD20B9 /* LaunchScreen.storyboard in Resources */,
 				BD3D63DD250BD79F00FD20B9 /* Assets.xcassets in Resources */,
 				BD3D63D9250BD79E00FD20B9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD3D63E4250BD79F00FD20B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD3D63EF250BD79F00FD20B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,36 +173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD3D63E2250BD79F00FD20B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD3D63EB250BD79F00FD20B9 /* StadiaAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD3D63ED250BD79F00FD20B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD3D63F6250BD79F00FD20B9 /* StadiaAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BD3D63E8250BD79F00FD20B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD3D63CD250BD79E00FD20B9 /* StadiaApp */;
-			targetProxy = BD3D63E7250BD79F00FD20B9 /* PBXContainerItemProxy */;
-		};
-		BD3D63F3250BD79F00FD20B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD3D63CD250BD79E00FD20B9 /* StadiaApp */;
-			targetProxy = BD3D63F2250BD79F00FD20B9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BD3D63D7250BD79E00FD20B9 /* Main.storyboard */ = {
@@ -499,90 +353,6 @@
 			};
 			name = Release;
 		};
-		BD3D63FE250BD79F00FD20B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UKS358BH88;
-				INFOPLIST_FILE = StadiaAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meulenhoff.StadiaAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StadiaApp.app/StadiaApp";
-			};
-			name = Debug;
-		};
-		BD3D63FF250BD79F00FD20B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UKS358BH88;
-				INFOPLIST_FILE = StadiaAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meulenhoff.StadiaAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StadiaApp.app/StadiaApp";
-			};
-			name = Release;
-		};
-		BD3D6401250BD79F00FD20B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UKS358BH88;
-				INFOPLIST_FILE = StadiaAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meulenhoff.StadiaAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = StadiaApp;
-			};
-			name = Debug;
-		};
-		BD3D6402250BD79F00FD20B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UKS358BH88;
-				INFOPLIST_FILE = StadiaAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meulenhoff.StadiaAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = StadiaApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,24 +370,6 @@
 			buildConfigurations = (
 				BD3D63FB250BD79F00FD20B9 /* Debug */,
 				BD3D63FC250BD79F00FD20B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD3D63FD250BD79F00FD20B9 /* Build configuration list for PBXNativeTarget "StadiaAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD3D63FE250BD79F00FD20B9 /* Debug */,
-				BD3D63FF250BD79F00FD20B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD3D6400250BD79F00FD20B9 /* Build configuration list for PBXNativeTarget "StadiaAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD3D6401250BD79F00FD20B9 /* Debug */,
-				BD3D6402250BD79F00FD20B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
